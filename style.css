@@ -7,6 +7,12 @@ body{
     text-align: center;
 }
 
+h1{
+    font-size: 7vmin;
+    margin-top: 2vmin;
+    margin-bottom: -3vmin;
+}
+
 .container{
     height: 70vh;
     display: flex;
@@ -42,5 +48,29 @@ body{
     color: white;
     border-radius: 1rem;
     border: none;
+    margin-top: -1vmin;
+}
 
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #432818;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 1vmin;
+}
+
+#msg{
+    color: #FFE6A7;
+    font-size: 6vmin;
+    margin-top: 1vmin;
+}
+
+.msg-container{
+    height: 15vmin;
+}
+
+.hide{
+    display: none;
 }
